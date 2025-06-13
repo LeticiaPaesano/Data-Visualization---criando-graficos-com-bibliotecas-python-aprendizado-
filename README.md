@@ -73,19 +73,27 @@ Este projeto foi desenvolvido com foco educacional e não está vinculado a uma 
 
 - `plt.plot()` com ajustes de cor e rótulos.
   
-![1](https://github.com/user-attachments/assets/9888acea-ebca-4257-ae4e-f1353a2d65a6)
+![plt plot](https://github.com/user-attachments/assets/e88594b4-963d-4a1d-a94d-4c19ec31ef46)
 
 - Uso de `plt.xticks()` para personalizar eixos.
+
+![plt xticks](https://github.com/user-attachments/assets/7f8ac8cc-098a-44a8-9fd2-66b7f9f58b74)
+
+- Subgráficos com `plt.subplots()`.
+
+![Subgraficos com plt subplots](https://github.com/user-attachments/assets/877f629e-ccd3-4288-b8f2-9ccad64df958)
+
+- Subgráficos com `.grid()`
+
+![Subgráficos com  grid()](https://github.com/user-attachments/assets/80743bcc-3abd-4a70-8806-c9006d276bb2)
+
+- Ajuste de escala com `ax.set_ylim()`.
+
+![Ajuste de escala com ax set_ylim](https://github.com/user-attachments/assets/7f4729ba-d8a8-4e98-aa61-0c9f3e6a8deb)
+
+- Uso de `marker='o'` marcador circular
   
-![2](https://github.com/user-attachments/assets/e2f14bb4-caef-4889-92a9-abfac9ae40c7)
-
-Subgráficos com `plt.subplots()`.
-
-![3](https://github.com/user-attachments/assets/5c2f9c45-e864-4814-8395-7eb1dd10a6f8)
-
-Ajuste de escala com `ax.set_ylim()`.
-
-![4](https://github.com/user-attachments/assets/061eaec7-2141-44dc-a1af-88404fcd46b4)
+![Uso de marker='o' marcador circular](https://github.com/user-attachments/assets/6bd73b61-da46-4864-b1a6-575f28b7b713)
 
 ---
 
@@ -93,17 +101,17 @@ Ajuste de escala com `ax.set_ylim()`.
 
 - Interatividade com `px.line()`.
   
-![2](https://github.com/user-attachments/assets/5cdc2720-4146-4dca-9837-911d9fcd03de)
+![Interatividade com px line](https://github.com/user-attachments/assets/f83789ab-6964-4012-bf41-91d7b64a47c9)
 
 - Ajustes com `fig.update_layout()` e `fig.update_traces()`.
 
-![3](https://github.com/user-attachments/assets/74cd2206-b40c-4f74-adb8-3950e5e1649b)
+![Ajustes com fig update_layout](https://github.com/user-attachments/assets/74f01b77-bff8-4a18-9000-abc12e3c0a51)
 
-![5](https://github.com/user-attachments/assets/01933cb0-0378-4890-8590-787f1dec359a)
+![Ajustes com fig update_traces](https://github.com/user-attachments/assets/eba221f5-89a7-4678-bb39-85dff6f618ee)
 
 - Inclusão de marcadores (`markers=True`) e exportação para web.
 
-![4](https://github.com/user-attachments/assets/7b9367b4-31f2-41a4-b011-6d979eabf454)
+![Inclusão de marcadores markers=True e exportação para web](https://github.com/user-attachments/assets/e55c4fbd-938a-4f74-9908-dc5a37f504a9)
 
 ---
 
@@ -113,54 +121,55 @@ Ajuste de escala com `ax.set_ylim()`.
 
 - Gráficos de barras verticais com `ax.bar()` e horizontais com `ax.barh()`.
 
-![1](https://github.com/user-attachments/assets/58f959d4-4b0d-4e4e-8872-b0601fc09327)
+![ax bar](https://github.com/user-attachments/assets/226d1b0d-1de3-41dd-aba0-4bf10300bf33)
 
-![2](https://github.com/user-attachments/assets/cbb2110d-eab7-4000-b001-0080c7ee1c59)
+![ax barh](https://github.com/user-attachments/assets/2e0331b3-ea98-424b-ac32-1af1ad4fba78)
 
 - Destaque para países específicos, como o Brasil, com alteração de cor e anotações.
   
-![1](https://github.com/user-attachments/assets/ff2620f1-6a49-4682-b4f2-1af1a3f9c9f2)
+![Destaque específico Brasil alteração de cor e anotações](https://github.com/user-attachments/assets/7ccf83b5-56e4-41aa-8742-b45e843e48dd)
 
 - Remoção de moldura e eixo X para visual mais limpo e foco no conteúdo.
-
-![4](https://github.com/user-attachments/assets/9ed80da4-b9bf-446c-9742-872780345a2a)
+  
+![Remoção de moldura e eixo X](https://github.com/user-attachments/assets/28dcccb4-1b52-4156-b057-bde12e4fef4f)
 
 ### `seaborn`
 
 - Criação de gráficos com `sns.barplot()` com diferentes paletas.
   
-![1](https://github.com/user-attachments/assets/17b07cce-2117-425b-b46f-dd52e4489cb4)
+ ![sns barplot](https://github.com/user-attachments/assets/b9b45dac-69bf-4c6e-9ac8-6906a67fabd8)
 
 Aplicação de diferentes paletas de cores, como:
 
 - `palette='Blues'`
   
-![2](https://github.com/user-attachments/assets/8c66860d-5f2c-4a8a-8e2f-316dbdb3632e)
+![palette=Blues](https://github.com/user-attachments/assets/d18b4a6d-f13f-48ee-a533-1859a7e75c63)
 
 - `palette='rocket'`
   
-![3](https://github.com/user-attachments/assets/2a650eab-d17e-40e9-83de-c1a1f8aeb448)
+![palette=rocket](https://github.com/user-attachments/assets/15d666c0-73bd-4864-bad1-fda2749f5de5)
 
 - `palette='tab10'`
   
-![4](https://github.com/user-attachments/assets/84a94e3d-81cc-4bf6-b855-3f38344a9116)
+![palette=tab10](https://github.com/user-attachments/assets/5b9a9886-2a1e-476c-96b5-4f1dc37998ac)
 
 - Uso de temas visuais com `sns.set_theme(style=...)`, variando entre:
+  
 - `dark`
   
-![1](https://github.com/user-attachments/assets/a686bf0a-d6d5-4ec2-8f96-f950568c780f)
+![dark](https://github.com/user-attachments/assets/dcfb9f10-ba43-4021-bb7d-2b5817a6a0bc)
 
 - `white`
 
-![22](https://github.com/user-attachments/assets/81be4b4b-c11f-40a3-9397-a20beac04a93)
+![white](https://github.com/user-attachments/assets/d9ad776b-ffa1-438b-ba46-b691029e12fd)
 
 - `ticks`
   
-![2](https://github.com/user-attachments/assets/50cef5fa-68da-4127-ba9b-f436d244d4b8)
+![ticks](https://github.com/user-attachments/assets/2d109cef-a582-48a6-9fc3-a0a42aa09d60)
 
 - Refinamento do layout gráfico com `sns.despine()`.
   
-![33](https://github.com/user-attachments/assets/96d6a6a4-a02c-4507-bc87-10fbbeb8cbfe)
+  ![sns despine](https://github.com/user-attachments/assets/03412050-427e-4253-9929-1308c3f6ce03)
 
 ---
 
